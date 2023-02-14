@@ -8,7 +8,7 @@
     "baseUrl": "./",
     "strict": true,
     "paths": {
-      "~/*": ["src/*"]
+      "@/*": ["src/*"]
     }
   },
   "include": ["src/**/*", ".eslintrc.json", ".prettierrc.json"]
