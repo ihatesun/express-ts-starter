@@ -1,4 +1,5 @@
 # express-ts-starter
+
 A simple expressjs starter project with TypeScript
 
 ## TODO
@@ -9,6 +10,20 @@ A simple expressjs starter project with TypeScript
 - [ ] Scripts for build
 - [ ] Basic express project structure
 - [ ] Sample API
-- [ ] Make a better README
-- [ ] Make a better selection of starter deps (ie, maybe remove nodemon, etc...)
-- [ ] Make a repo without Express
+- [ ] Better README
+- [ ] Better selection of starter deps (ie, maybe remove nodemon, etc...)
+
+## NOTE
+
+Solutions in case of alias paths
+
+1. ts-node with tsconfig-paths  
+
+```json
+  "ts-node": {
+    "transpileOnly": true,
+    "require": ["tsconfig-paths/register"]
+  },
+```
+
+2. tsc with tsc-alias
