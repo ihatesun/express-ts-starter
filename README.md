@@ -19,11 +19,13 @@ Solutions in case of alias paths
 
 1. ts-node with tsconfig-paths  
 
+Add the following to tsconfig.json
+
 ```json
   "ts-node": {
     "transpileOnly": true,
     "require": ["tsconfig-paths/register"]
-  },
+  }
 ```
 
 2. tsc with tsc-alias
